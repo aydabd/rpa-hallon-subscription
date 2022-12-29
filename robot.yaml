@@ -1,0 +1,22 @@
+tasks:
+  Hallon Subscription robot:
+    command:
+      - python
+      - -m
+      - robot
+      - --report
+      - NONE
+      - --outputdir
+      - output
+      - --logtitle
+      - Task log
+      - tasks.robot
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+ignoreFiles:
+  - .gitignore
+PATH:
+  - .
+PYTHONPATH:
+  - .
