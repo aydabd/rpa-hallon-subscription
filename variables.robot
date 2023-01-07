@@ -1,5 +1,8 @@
-*** Variables ***
+*** Settings ***
 Documentation                       Neccessary variables for this robot
+
+*** Variables ***
+
 
 ${HALLON_FIRST_PAGE}                https://www.hallon.se/mobilabonnemang
 ${CLASS_JS_AVAILABLE_NUMBERS}       //select[@class="js-available-numbers"]
